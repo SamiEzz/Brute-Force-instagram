@@ -112,12 +112,12 @@ class randoomPas:
 					threading.Thread(target=SeveScour(self.user,pess)).start()
 				elif 'ip_block' in get.text:
 					vv1ck(red+'[-] bad proxy ..')
-					vv1ck(green+str(get.text))
+					vv1ck(str(get.text))
 				elif errorFUOt in get.text:
 					vv1ck(red+f'[-] Not hacked >> {self.user}:{pess}')
 				elif withs in get.text:
 					vv1ck(red+'[-] bad proxy ..')
-					vv1ck(green+str(get.text))
+					vv1ck(str(get.text))
 				elif errReq in get.text:pass
 				elif none in get.text:pass
 				else: print(get.text)
